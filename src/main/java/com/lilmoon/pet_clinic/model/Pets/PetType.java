@@ -1,4 +1,4 @@
-package com.lilmoon.pet_clinic.model;
+package com.lilmoon.pet_clinic.model.Pets;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
@@ -6,7 +6,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "Pet_type")
+import java.util.Set;
+
+@Entity
+@Table(name = "pet_types")
 @NoArgsConstructor
 @Getter
 @Setter
@@ -14,8 +17,11 @@ import lombok.Setter;
 public class PetType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "pet_type_id")
     private Long id;
-    @Column(name = "name")
-    private String name;
+
+    @Column(name = "pet_type_name")
+    private String petTypeName;
+
+    @OneToMany(mappedBy = "petType", cascade =CascadeType.ALL)
+    private Set<Pet> pets;
 }

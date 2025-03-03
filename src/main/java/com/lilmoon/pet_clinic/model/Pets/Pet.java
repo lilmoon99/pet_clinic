@@ -34,5 +34,5 @@ public class Pet {
     private List<Visit> visits;
 
     @Column(name = "birth_date")
-    private LocalDate birth_date;
+    private LocalDate birthDate;
 }

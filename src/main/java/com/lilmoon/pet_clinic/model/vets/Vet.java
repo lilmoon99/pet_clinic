@@ -1,4 +1,4 @@
-package com.lilmoon.pet_clinic.model.Vets;
+package com.lilmoon.pet_clinic.model.vets;
 
 import com.lilmoon.pet_clinic.model.Visit;
 import jakarta.persistence.*;
@@ -39,4 +39,5 @@ public class Vet {
     public void removeSpeciality(VetSpeciality vetSpeciality){
         this.vetSpecialities.remove(vetSpeciality);
     }
+
 }

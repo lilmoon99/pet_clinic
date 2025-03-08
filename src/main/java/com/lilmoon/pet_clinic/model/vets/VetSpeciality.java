@@ -1,4 +1,4 @@
-package com.lilmoon.pet_clinic.model.Vets;
+package com.lilmoon.pet_clinic.model.vets;
 
 import jakarta.persistence.*;
 import lombok.*;

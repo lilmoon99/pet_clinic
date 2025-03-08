@@ -1,7 +1,6 @@
 package com.lilmoon.pet_clinic.dtos.vet;
 
 import com.lilmoon.pet_clinic.dtos.VetSpeciality.VetSpecialityDTO;
-import com.lilmoon.pet_clinic.model.Vets.VetSpeciality;
 
 import java.util.Set;
 

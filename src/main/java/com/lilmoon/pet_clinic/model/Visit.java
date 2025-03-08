@@ -1,8 +1,8 @@
 package com.lilmoon.pet_clinic.model;
 
-import com.lilmoon.pet_clinic.model.Pets.Pet;
-import com.lilmoon.pet_clinic.model.Pets.PetOwner;
-import com.lilmoon.pet_clinic.model.Vets.Vet;
+import com.lilmoon.pet_clinic.model.pets.Pet;
+import com.lilmoon.pet_clinic.model.pets.PetOwner;
+import com.lilmoon.pet_clinic.model.vets.Vet;
 import jakarta.persistence.*;
 import lombok.*;
 

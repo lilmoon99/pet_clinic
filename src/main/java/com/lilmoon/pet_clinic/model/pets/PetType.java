@@ -1,4 +1,4 @@
-package com.lilmoon.pet_clinic.model.Pets;
+package com.lilmoon.pet_clinic.model.pets;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;

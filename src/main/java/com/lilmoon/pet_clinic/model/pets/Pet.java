@@ -2,6 +2,7 @@ package com.lilmoon.pet_clinic.model.pets;
 
 import com.lilmoon.pet_clinic.model.Visit;
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,6 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
+@Data
 @Table(name = "pets")
 public class Pet {
     @Id
@@ -35,4 +37,5 @@ public class Pet {
 
     @Column(name = "birth_date")
     private LocalDate birthDate;
+
 }

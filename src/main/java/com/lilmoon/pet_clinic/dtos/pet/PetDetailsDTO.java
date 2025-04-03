@@ -3,11 +3,13 @@ package com.lilmoon.pet_clinic.dtos.pet;
 import com.lilmoon.pet_clinic.dtos.petOwner.PetOwnerDTO;
 import com.lilmoon.pet_clinic.dtos.petTypeDTO.PetTypeDTO;
 import com.lilmoon.pet_clinic.dtos.visit.VisitDTO;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Builder
 @Data
 public class PetDetailsDTO {
     private Long id;
